@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>Green Cart Apllication</div>
+    <div>
+      <Navbar></Navbar>
+    </div>
   )
 }
 
